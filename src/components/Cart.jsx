@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import CustomHeading from "./shared/Heading";
 import dummyImg from "../assets/dummy-img.jpg";
 import IncDec from "./shared/IncDec";
-import Custombutton from "./shared/Button";
-import Qrcode from "./shared/Qrcode";
 import { getCart } from "../utils";
 
 const Cart = ({ updateCart, setUpdateCart }) => {
